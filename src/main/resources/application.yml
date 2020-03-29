@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: dev
+    url: jdbc:postgresql://localhost:5432/dev
+    password: dev
+  liquibase:
+    change-log: classpath:/db/changelog/databaseChangeLog.yml
+
+server:
+  port: 8090
+
+logging:
+  level:
+    pl.dudzik: debug

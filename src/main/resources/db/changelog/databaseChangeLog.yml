@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20200322-initial-schema
+      author: Maciej Dudzik
+      sqlFile:
+        relativeToChangelogFile: true
+        path: 20200322-initial-schema.sql
